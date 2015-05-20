@@ -1,4 +1,6 @@
 h1{color: #2573ff;}
 h2{font:14px;}
-p{font: 12px;color: #ffff00;background: #000;}
+p{font: 12px;color: #ffff00;background: #000;text-indent:inherit;}
 img{border: 2px solid #ff0000;}
+.suojin{text-indent: 10px;width: 100px;}
+.eng{text-transform: lowercase;}
