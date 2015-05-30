@@ -98,3 +98,8 @@ body{background:url(../img/banner-bg.jpg) no-repeat center 80px/1980px 525px #cc
 .body .right .tigs .tig_bd a.big{font-size: 28px;font-weight: bold;}
 .body .right .tigs .tig_bd a.mid{font-size: 16px;font-weight: bold;}
 .body .right .tigs .tig_bd a.small{font-size: 14px;font-weight: normal;}
+
+/*gallery css*/
+.gallery_body{}
+.gallery_body .main{width:710px;float:left;}
+.gallery_body .right{width:260px;float:left;margin-left: 10px;}
