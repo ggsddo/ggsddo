@@ -1,0 +1,10 @@
+*{margin:0;padding:0}
+li {list-style: outside none none;}
+a{text-decoration:none;}
+.clear {clear: both; font-size: 0; height: 0; line-height: 0;overflow: hidden;}
+img {border: medium none;}
+.wrapper{width:980px;margin:0 auto;}
+.vspace{height:10px; clear: both;font-size: 0;line-height: 0;overflow: hidden;}
+
+body{background:url(../img/banner-bg.jpg) no-repeat center center #ccc;}
+.banner{height:525px;}

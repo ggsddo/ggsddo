@@ -1,0 +1,100 @@
+*{margin:0;padding:0}
+li {list-style: outside none none;}
+a{text-decoration:none;}
+.clear {clear: both; font-size: 0; height: 0; line-height: 0;overflow: hidden;}
+img {border: medium none;}
+.wrapper{width:980px;margin:0 auto;}
+.vspace{height:10px; clear: both;font-size: 0;line-height: 0;overflow: hidden;}
+
+body{background:url(../img/banner-bg.jpg) no-repeat center 80px/1980px 525px #ccc;}
+.header{}
+.header .nav{background: #522a5c;height:80px;position: relative;}
+.header .nav .logo{float: left;position: absolute;bottom: 5px;font:bold 24px/28px '宋体';color: #fff;}
+.header .nav ul{float: right;margin-top: 50px;}
+.header .nav ul li{font: 14px/28px '宋体';color: #fff;float: left;margin-left: 28px;}
+.header .nav ul li a{}
+.header .nav .icon{float: right;background:url(../img/icon-github.png) no-repeat center bottom transparent;height:34px;width: 30px;position: absolute;bottom: 0px;right: 10px; }
+
+.header .banner{height:525px;position: relative;width:980px;margin:0 auto;}
+.header .banner .text{background: #fff;padding: 10px 10px 30px 10px;position:absolute;bottom: 0px;right: 0px;width: 360px;opacity:0.7;}
+.header .banner .text h3{font: 14px/32px '宋体';float: right;}
+.header .banner .text p{font: 12px/150% '宋体';float: left;}
+
+.body .pics{padding-top:10px;}
+.body .pics ul{}
+.body .pics ul li{float: left;width:300px;padding:10px;margin-right: 10px;background: #fff;height: 340px;overflow: hidden;}
+.body .pics ul li:last-child{margin-right: 0px;}
+.body .pics ul li p{width: 300px;padding: 5px 0px;text-indent: 2em;font: 12px/150% "宋体";}
+
+.myinfo{position: relative;background: #fff;padding:160px 0;}
+.myinfo .hd{position: absolute;border-radius: 80px;top:-40px;left:0px;right:0px;overflow: hidden;margin: auto;width: 160px;}
+
+.myinfo .bd{margin:0 auto;width: 600px;}
+.myinfo .bd h3{text-align: center;margin-bottom: 30px;font: 20px/28px '宋体';}
+.myinfo .bd p{text-indent: 2em;font: 14px/28px '宋体';}
+
+.footer{background: #000;}
+.footer .hd{border-bottom: 1px solid #333;height: 35px;}
+.footer .hd ul{width: 228px; margin: 0 auto;}
+.footer .hd ul li{font: 14px/36px '宋体';color: #fff;margin-left: 28px;float: left;}
+.footer .hd ul li a{}
+
+.footer .bd{width: 980px; margin: 0 auto; }
+.footer .bd dl{color: #fff;width: 200px;float: left;font: 14px/28px '宋体';}
+.footer .bd dl:nth-child(5) {width: 180px;}
+.footer .bd dl dt{line-height: 110px;}
+.footer .bd dl dd{}
+.footer .bd dl dd a{color: #fff;}
+.footer .bd dl dd a:hover{text-decoration:underline;}
+
+.footer .fd{width: 56px; margin: 0 auto;margin-top: 80px;}
+.footer .fd span{font: 14px/36px '宋体';color: #fff;margin-bottom: 10px;}
+.footer .fd img{width: 30px; margin: 0 auto;display: block;}
+
+/*blog css*/
+.body .main{width:710px;float:left;}
+.body .main .article{background: #fff;position: relative;padding: 20px;margin-bottom: 10px;}
+.body .main .article .type{position: absolute;top:20px;left:-50px;}
+.body .main .article .type .date{color: #fff;width: 50px;font: 14px/36px '宋体';background: #522a5c;text-align: center;}
+.body .main .article .type .tip{color: #fff;width: 50px;font: 14px/36px '宋体';background: #a660b7;text-align: center;}
+.body .main .article .text .title h3{color: #a660b7;font:bold 16px/28px '宋体';}
+.body .main .article .text .subtitle h4{color: #666;font:bold 12px/18px '宋体';}
+.body .main .article .text .content p{color: #000;font: 12px/18px '宋体';text-indent: 2em;padding-top: 10px;}
+.body .main .article .text .source{float: right;color: #999;font: 12px/18px '宋体';margin-top: 30px;}
+.body .main .page{width: 670px; margin:  0 auto;margin-bottom: 20px;}
+.body .main .page a{width: 40px;height: 40px; margin-left: 10px;text-align: center;background: #fff;display: inline-block;line-height: 40px;}
+.body .main .page .first{width: 80px;}
+.body .main .page .prev{width: 80px;}
+.body .main .page .cur{background: #a660b7;color: #fff;}
+.body .main .page .next{width: 80px;}
+.body .main .page .end{width: 80px;}
+
+.body .right{width:260px;float:left;margin-left: 10px;}
+.body .right .search{padding:10px;background: #fff;}
+.body .right .search .input{padding-left:10px;background: #fff;font:26px '宋体';border: 1px solid #ddd;height: 38px;width: 185px;}
+.body .right .search .button{background: #ddd;font:bold 26px '宋体';color: #fff;border: none;height: 40px;text-align:center;width: 40px;}
+
+.body .right .list{background: #fff;}
+.body .right .list ul{}
+.body .right .list ul li{border-top: 1px solid #ccc;height:40px;background: #dfc6e6;padding-left: 5px;}
+.body .right .list ul li:hover{background: #522a5c;}
+.body .right .list ul li a{background: #fff;height:40px; font: 14px/40px '宋体';padding-left: 20px;color:#666;display: block;width:235px;}
+
+.body .right .date{background: #fff;padding: 20px;}
+.body .right .date .getyear {height: 22px;line-height: 22px;text-align: center;width: 100%;color:#773c88;}
+.body .right .date .getyear select{color:#773c88;font-weight:bold;}
+.body .right .date .getyear .preMonth{font-size:16px;font-weight:bold;float: left;}
+.body .right .date .getyear .nextMonth{font-size:16px;font-weight:bold;float: right;}
+.body .right .date .tablebg{}
+.body .right .date .tablebg table{border-collapse: collapse;}
+.body .right .date .tablebg tr{border-bottom: 1px solid #ddd;}
+.body .right .date .tablebg tr th{width: 30px;height: 30px;text-align: center;font:bold 14px/30px '宋体';color:#666; }
+.body .right .date .tablebg tr td{width: 30px;height: 30px;text-align: center;font:14px/30px '宋体';color:#666;}
+
+.body .right .tigs{padding: 15px;background: #fff;}
+.body .right .tigs .tig_hd{font:16px/20px '宋体';color:#666;}
+.body .right .tigs .tig_bd{margin-top: 10px;}
+.body .right .tigs .tig_bd a{color:#773c88;}
+.body .right .tigs .tig_bd a.big{font-size: 28px;font-weight: bold;}
+.body .right .tigs .tig_bd a.mid{font-size: 16px;font-weight: bold;}
+.body .right .tigs .tig_bd a.small{font-size: 14px;font-weight: normal;}
